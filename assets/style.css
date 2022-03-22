@@ -22,6 +22,7 @@ header nav{
 header nav ul{
     display: flex;
     gap: 40px;
+    margin-right: 12px;
 }
 header nav ul li{
     list-style: none;
@@ -38,17 +39,19 @@ header nav ul li a{
 }
 
 
-.heroheader{
+.containerone{
     background-color: #1F2937;
     margin: 0px;
-    padding: 0px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.heroheader p{
+.containerone p{
  font-size: 18px;
  color: #e5e7eb;
 }
-.heroheader h1{
+.containerone h1{
     margin-top: 0px;
     font-size: 48px;
     font-weight: 900;
@@ -56,6 +59,34 @@ header nav ul li a{
 }
 
 img{
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 40em;
+    max-width: 100%;
+}
+
+.herotext{
+    width: 30em;
+    margin-left: 180px;
+}
+
+.heroimg{
+    margin-right: 200px;
+
+}
+
+.herobutton{
+    background-color: #3882f6;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.herobutton a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
 }
