@@ -79,7 +79,6 @@ img{
     padding: 8px;
     padding-left: 25px;
     padding-right: 25px;
-    margin: 0px;
     border: 0px;
     font-size: 18px;
     border-radius: 10px;
@@ -89,4 +88,35 @@ img{
     text-decoration: none;
     text-align: center;
     color: white;
+}
+
+.containertwo{
+display: flex;
+flex-direction: column;
+
+}
+
+.infoheader{
+
+}
+
+
+.infoheader p{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.infocards{
+    
+}
+
+.card{
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+    border: solid #3882f6 2px;
 }
