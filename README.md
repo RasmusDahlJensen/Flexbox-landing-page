@@ -1,2 +1,2 @@
-# Landing-page
+# A landing page made with flexbox
  
