@@ -1,2 +1,2 @@
-# A landing page made with flexbox
+# This is my first project after learning for about 2 weeks to showcase flexbox.
  
