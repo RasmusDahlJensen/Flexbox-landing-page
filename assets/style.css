@@ -93,6 +93,7 @@ img{
 .containertwo{
 display: flex;
 flex-direction: column;
+margin-top: 80px;
 
 }
 
@@ -110,9 +111,10 @@ flex-direction: column;
 
 .infocards{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    gap: 30px;
-    
+    gap: 50px;
 }
 
 .card{
@@ -123,4 +125,17 @@ flex-direction: column;
     float: left;
     border-radius: 15px;
     border: solid #3882f6 4px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardtext{
+    width: 15em;
+}
+
+.secondsection{
+    height: 600px;
 }
