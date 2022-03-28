@@ -215,3 +215,11 @@ img{
 .actiontext h3{
     font-weight: 300;
 }
+
+footer{
+    background-color: #1F2937;
+    padding: 15px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
