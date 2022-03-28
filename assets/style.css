@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
     font-family: roboto;
@@ -91,9 +91,9 @@ img{
 }
 
 .containertwo{
-display: flex;
-flex-direction: column;
-margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
 
 }
 
@@ -138,4 +138,31 @@ margin-top: 80px;
 
 .secondsection{
     height: 600px;
+}
+
+.testimonialsection{
+    background-color: #E5E7EB;
+    display: flex;
+    margin: 0%;
+    padding: 7%;
+    
+}
+
+.testimonial h2{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 50%;
+    margin: 0%;
+    margin-left: 25%;
+    font-weight: 200;
+}
+
+.quote{
+    color: #1f2937;
+    margin-left: 60%;
+}
+
+.quote h3{
+    margin: 0%;
 }
